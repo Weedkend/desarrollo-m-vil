@@ -40,29 +40,27 @@ void main() {
   final flipper = Delfin();
   flipper.nadar();
 
-  final pato = Pato();
-  pato.caminar();
-  pato.volar();
-  pato.nadar();
+  final bat = Murcielago();
+  bat.caminar();
+  bat.volar();
 
-  final perro = Perro();
-  perro.caminar();
-  perro.nadar();
+  final kitty = Gato();
+  kitty.caminar();
 
-  final aguila = Aguila();
-  aguila.caminar();
-  aguilavolar();
+  final duck = Pato();
+  duck.caminar();
+  duck.volar();
+  duck.nadar();
 
-  final cocodrilo = Cocodrilo();
-  cocodrilo.caminar();
-  cocodrilo.nadar();
+  final dove = Paloma();
+  dove.caminar();
+  dove.volar();
 
-  final pelicano = Pelicano();
-  pelicano.nadar();
-  pelicano.caminar();
-  pelicano.volar();
-  
-  final rana = Rana();
-  rana.caminar();
-  rana.nadar();
+  final shark = Tiburon();
+  shark.nadar();
+
+  final flyingFish = PezVolador();
+  flyingFish.nadar();
+  flyingFish.volar();
+
 }
